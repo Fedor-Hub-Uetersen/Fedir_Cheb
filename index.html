@@ -75,26 +75,16 @@
             transform: translateY(-2px);
             box-shadow: 0 6px 12px rgba(0,0,0,0.1);
         }
-        
-        /* Стили для кнопок сайтов */
         .btn.shop { background-color: #ff9f43; }
         .btn.shop:hover { background-color: #ee8f2e; }
-        
         .btn.tech { background-color: #00d2d3; }
         .btn.tech:hover { background-color: #00b3b4; }
-        
-        /* Стили для контактов */
         .btn.whatsapp { background-color: #22c55e; }
         .btn.whatsapp:hover { background-color: #16a34a; }
-        
         .btn.phone { background-color: #2563eb; }
         .btn.phone:hover { background-color: #1d4ed8; }
-        
-        /* Стили для почты */
         .btn.email { background-color: #64748b; }
         .btn.email:hover { background-color: #475569; }
-
-        /* Стили для блока QR-кода */
         .qr-section {
             margin-top: 25px;
             padding-top: 25px;
@@ -117,30 +107,24 @@
 <body>
 
 <div class="card">
-    <!-- Фото -->
     <img src="avatar.jpg" alt="Fedir Cheburaschkin" class="profile-img" onerror="this.style.display='none'">
     
     <h1>Fedir Cheburaschkin</h1>
     <div class="motto">Disziplin und Zucker!</div>
     
     <div class="links">
-        <!-- НАШИ САЙТЫ -->
         <a href="https://chebur.shop" target="_blank" class="btn shop">Online-Shop (chebur.shop)</a>
         <a href="https://sibionics.tech" target="_blank" class="btn tech">Portfolio (sibionics-tech)</a>
-        
-        <!-- СВЯЗЬ -->
         <a href="https://wa.me/4917661566343" target="_blank" class="btn whatsapp">Schreibe mir auf WhatsApp</a>
         <a href="tel:+4917661566343" class="btn phone">Anruf +49 176 61566343</a>
         <a href="mailto:cheburashkinfedir@gmail.com" class="btn email">E-Mail senden</a>
     </div>
 
-    <!-- БЛОК С ПРАВИЛЬНЫМ QR-КОДОМ -->
     <div class="qr-section">
-        <div class="qr-title">Fedir Cheburashkin</div>
+        <div class="qr-title">Сканируйте визитку</div>
         <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://fedor-hub-uetersen.github.io/Fedir_Cheb/" alt="QR Code" class="qr-img">
     </div>
 </div>
 
 </body>
 </html>
-
